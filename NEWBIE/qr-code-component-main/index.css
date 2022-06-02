@@ -1,7 +1,40 @@
-.attribution {
-    font-size: 11px; 
-    text-align: center;
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
-.attribution a {
-    color: hsl(228, 45%, 44%);
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60%;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px -5px gray;
+
+}
+
+.picture {
+    width: 90%;
+    height: auto; 
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.title {
+    padding: 0 30px;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.texts {
+    padding: 0 35px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
 }
