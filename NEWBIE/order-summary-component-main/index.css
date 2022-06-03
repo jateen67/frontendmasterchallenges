@@ -1,0 +1,131 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container {
+    position: absolute;
+    width: 29%;
+    height: 80%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+h1 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 35px;
+}
+.desc-container {
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.desc {
+    font-size: 16px;
+    line-height: 1.75em;
+    color: hsl(224, 23%, 55%)
+}
+.plan-container {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 12%;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.note {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-pic {
+    position: absolute;
+    margin: auto;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.annual {
+    font-weight: 900;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+}
+.annual, .price {
+    margin: 5px 0;
+}
+.change-plan {
+    width: 75px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.change {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 25px;
+
+}
+.btn-div {
+    width: 70%;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    height: 40px;
+}
+
+.proceed {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 12px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+.cancel {
+    position: absolute;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+    top: 88%;
+    text-align: center;
+    margin-left: 170px;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+.proceed:hover {
+    opacity: 0.7;
+}
+.change:hover {
+    opacity: 0.7;
+}
